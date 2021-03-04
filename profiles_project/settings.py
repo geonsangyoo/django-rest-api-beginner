@@ -27,6 +27,7 @@ SECRET_KEY = '09+u1@bi39lq7ht&#_#77hr@)andxa5ary_=92!%ig0879kxyb'
 DEBUG = bool(int(os.environ.get('DEBUG', 1)))
 
 ALLOWED_HOSTS = [
+    'geonsang-server.ga',
     '35.72.0.124',
     '127.0.0.1',
 ]
